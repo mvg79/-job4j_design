@@ -1,9 +1,7 @@
 package ru.job4j.iterator;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import java.util.NoSuchElementException;
 
 public class BackwardArrayItTest {
