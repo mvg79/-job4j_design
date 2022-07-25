@@ -29,6 +29,7 @@ public class SimpleArrayList<T> implements SimpleList<T> {
 
     @Override
     public T set(int index, T newValue) {
+        Objects.checkIndex(index, size);
         T old = container[index];
         container[index] = newValue;
         return old;
